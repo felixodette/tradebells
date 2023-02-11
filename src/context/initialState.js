@@ -1,4 +1,4 @@
-import { fetchSesionUser } from '../utils/fetchSessionData';
+import { fetchSessionUser } from '../utils/fetchSessionData';
 
 const sessionUser = fetchSessionUser();
 export const initialState = {
