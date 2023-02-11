@@ -2,6 +2,8 @@ import React from "react";
 import Logo from "../../img/logo.png";
 import Avatar from "../../img/avatar.png";
 import { MdShoppingBasket } from "react-icons/md";
+import './header.css';
+
 const Header = () => {
   return (
     <header className="w-screen fixed z-50  p-6 px-16">
@@ -9,7 +11,7 @@ const Header = () => {
       <div className="hidden md:flex w-full justify-between itesm-center">
         <div className="flex items-center gap-2">
           <img src={Logo} alt="Logo" className="w-8 object-cover" />
-          <p className="text-headingColor text-xl font-bold">TradeBells</p>
+          <p className="text-headingColor text-xl font-bold">Trade<span className="bells">B<span className="e-tilt">e</span>lls</span></p>
         </div>
 
         {/* navigation */}

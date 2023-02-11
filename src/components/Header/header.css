@@ -1,0 +1,18 @@
+.e-tilt {
+  transform: rotate(-0.25turn);
+  /* Safari */
+  -webkit-transform: rotate(-0.25turn);
+
+  /* Firefox */
+  -moz-transform: rotate(-0.25turn);
+
+  /* IE */
+  -ms-transform: rotate(-0.25turn);
+
+  /* Opera */
+  -o-transform: rotate(-0.25turn);
+}
+
+.bells {
+  color: crimson;
+}
